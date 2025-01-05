@@ -1,8 +1,13 @@
 # OpenAI
-[**OpenAI API**](https://platform.openai.com/docs/overview) (A backend for [**ChatGPT**](https://chatgpt.com/) application)
 
-1. Create an [**OpenAI**](https://openai.com/) account.
+### Access
+1. Create an [**OpenAI**](https://openai.com/) account at [**platform.openai.com**](https://platform.openai.com/docs/overview) (A backend for [**ChatGPT**](https://chatgpt.com/) application).
 2. Create an [**API key**](https://platform.openai.com/api-keys) to access the OpenAI API.
+
+### Payment
+1. We have a free version and a premium version with a monthly subscription fee.
+2. When we use the API we need to pay for the token we use.
+3. Token pricing is based on the large language model we use.
 
 
 ```python
