@@ -8,8 +8,44 @@
 1. We have a free version and a premium version with a monthly subscription fee.
 2. When we use the API we need to pay for the token we use.
 3. Token pricing is based on the LLM (Large Language Model) we use.
-4. We can find the pricing on [openai.com/pricing](https://openai.com/api/pricing/)
+4. We can find the pricing on [**openai.com/pricing**](https://openai.com/api/pricing/)
+
 ![Token](Images/Tokens.png)
+
+### Playground
+- We can use the OpenAI API right from [**platform.openai.com/playground**](https://platform.openai.com/playground)
+- We can create our own assistance, complete with custom functions and content retrieval.
+- We can also setup a chat with system, assistance, and user messages.
+- In the playground we have a complete control over every aspects, parameters of the API.
+- The UI lets you set the model, temperature, maximum length (token) for each response.
+- It helps us to understand how the AI responds to different inputs, what the model and parameter settings do.
+- It also helps us to set up and manage our own custom assistance.
+- The playground also helps us to write codes for basic integration into your apps in different languages.
+
+### Authentication
+- The OpenAI API uses API keys for authentication.
+- We can generate and manage unique API Keys from [**platform.openai.com/apikeys**](https://platform.openai.com/apikeys)
+- Copy the key once it is generated. API Key is passed to the API as a bearer token in the authentication header of our request.
+- Keep you API key secured, and in the backend.
+
+### Code Integration
+- The OpenAI API is a standard RESTful API that acts on HTTP requests.
+- We are free to integrate it with any coding language and REST based approach.
+- OpenAI has two robust libraries for the API to make integration easier.
+- One for [**python**](https://pypi.org/project/openai/) and one for [**node.js**](https://www.npmjs.com/package/openai)
+- We can add these libraries using **pip** for python and **npm** for node.js to get started.
+- The OpenAI libraries provide helper functions to simplify integration and documentation including practical code examples.
+
+```python
+# Import the library:
+import os
+from openai import OpenAI
+
+# Create a client:
+client = OpenAI(api_key = os.getenv('OPENAI_API_KEY')
+```
+
+[**Basics**](https://github.com/LinkedInLearning/openai-api-introduction-4564116) to set up the openAI and get started
 
 ```python
 import os
