@@ -7,8 +7,7 @@
 ### Payment
 1. We have a free version and a premium version with a monthly subscription fee.
 2. When we use the API we need to pay for the token we use.
-3. Token pricing is based on the large language model we use.
-
+3. Token pricing is based on the LLM (Large Language Model) we use.
 
 ```python
 import os
