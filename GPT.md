@@ -1,6 +1,6 @@
 # GPT (Generative Pre-trained Transformer)
 
-AI model that is pre-trained and understand text and generate new text.
+AI model that is pre-trained, understand text and generate new text. It exactly feels like created by some human.
 
 ### Generative
 - Ability of the model to generate new text that is similar in style and content to the dataset it was trained on.
