@@ -1,8 +1,5 @@
 # Postman Configuration
 
-1. Create an account on platform.openai.com
-2. Setup an api key
-
 ### HTTP
 
 **Request** (Address, Request Method, Headers, Body)
